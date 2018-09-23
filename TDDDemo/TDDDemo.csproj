@@ -41,11 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Constants.cs" />
+    <Compile Include="Core\Employee.cs" />
+    <Compile Include="Core\EmployeeParser.cs" />
+    <Compile Include="Core\Exceptions\MissingInformationImportException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Application\" />
-    <Folder Include="Core\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Web\" />
   </ItemGroup>
